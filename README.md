@@ -15,20 +15,31 @@
 ## 机器学习
 * [机器学习笔记](https://feisky.xyz/machine-learning/)
 * [机器学习最佳实践](https://feisky.xyz/machine-learning/appendix/rules-of-ml.html)
+* [深度学习500问](https://github.com/scutan90/DeepLearning-500-questions)
 
 
 ## 开源项目
 * [Chinese translations for classic IT resource](https://github.com/oldratlee/translations)
+* [中国独立开发者项目列表](https://github.com/1c7/chinese-independent-developer)
+
+#### 分布式任务调度
+* [elastic-job-lite](https://github.com/elasticjob/elastic-job-lite)
+* [xxl-job](https://github.com/xuxueli/xxl-job)
 
 
 
 ## 其他
 * [基于 Nginx 的 HTTPS 性能优化实践](https://mp.weixin.qq.com/s/ryl77apaO5BHfTBh7dx-kQ)
+
 #### 开发者网站
 * [腾讯云+社区](https://cloud.tencent.com/developer/devdocs)
 
 #### 类似归纳
 * [后端架构师技术图谱](https://cloud.tencent.com/developer/article/1165100)
+* [technology-talk](https://github.com/aalansehaiyang/technology-talk)
+* [awesome-programming-books](https://github.com/jobbole/awesome-programming-books)
+* [JavaWiki](https://github.com/iwannarun/JavaWiki)
+* [JavaGuide](https://github.com/Snailclimb/JavaGuide)
 
 #### markdown
 * [Markdown基本语法](https://www.jianshu.com/p/191d1e21f7ed)
