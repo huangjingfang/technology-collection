@@ -17,6 +17,8 @@
 * [Chinese translations for classic IT resource](https://github.com/oldratlee/translations)
 
 ## 其他
+#### 开发者网站
+* [腾讯云+社区](https://cloud.tencent.com/developer/devdocs)
 
 #### 类似归纳
 * [后端架构师技术图谱](https://cloud.tencent.com/developer/article/1165100)
