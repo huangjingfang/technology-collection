@@ -2,13 +2,8 @@
 
 [TOC]
 
-## Java基础
-#### 泛型
-* [Java高级特性入门——泛型、反射和注解](https://mp.weixin.qq.com/s/r1ccNKBbYvbbkHHvxoNwAw)
-
-#### 并发
-* [【基本功】不可不说的Java“锁”事](【基本功】不可不说的Java“锁”事)
-* [并发队列-无界非阻塞队列 ConcurrentLinkedQueue 原理探究](http://www.importnew.com/25668.html)
+* [Java]("./语言/java.md")
+* [文档]("./文档/documentation.md")
 
 ## 数据库
 * [埋在 MYSQL 数据库应用中的17个关键问题！](https://mp.weixin.qq.com/s?__biz=MzA3ODg3OTk4OA==&mid=2651090802&idx=2&sn=fceb2ab31cc12c94d091d4d39c229582&chksm=844cc2e9b33b4bffcf9fa3887764477c9fb8834c28014a66bcebe95a7829b9142bb4313f015d&scene=0#rd)
@@ -29,7 +24,7 @@
 * [机器学习最佳实践](https://feisky.xyz/machine-learning/appendix/rules-of-ml.html)
 
 ## 官方文档
-* [grpc](http://doc.oschina.net/grpc?t=60134)
+
 
 ## 开源项目
 * [Chinese translations for classic IT resource](https://github.com/oldratlee/translations)
