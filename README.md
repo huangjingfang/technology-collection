@@ -2,7 +2,7 @@
 
 [TOC]
 
-* [Java](./语言/java.md)
+* [Java](语言/java.md)
 * [文档]("./文档/documentation.md")
 
 ## 数据库
