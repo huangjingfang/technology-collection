@@ -19,6 +19,7 @@
 * [Chinese translations for classic IT resource](https://github.com/oldratlee/translations)
 
 ## 其他
+* [基于 Nginx 的 HTTPS 性能优化实践](https://mp.weixin.qq.com/s/ryl77apaO5BHfTBh7dx-kQ)
 #### 开发者网站
 * [腾讯云+社区](https://cloud.tencent.com/developer/devdocs)
 
