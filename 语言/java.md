@@ -5,3 +5,8 @@
 #### 并发
 * [【基本功】不可不说的Java“锁”事](【基本功】不可不说的Java“锁”事)
 * [并发队列-无界非阻塞队列 ConcurrentLinkedQueue 原理探究](http://www.importnew.com/25668.html)
+
+#### Java内存模型
+* [基于Java内存模型：Synchronized和Volatile的比较 ](https://mp.weixin.qq.com/s/lTHTrTIiYinn43Bgfqsl9Q)
+
+#### Java数据结构
