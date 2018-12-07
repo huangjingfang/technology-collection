@@ -3,6 +3,7 @@
 * [Paxos，Raft，Zab强一致性协议-Zab篇](https://cloud.tencent.com/developer/news/261787)
 * [RAFT协议动态演示](http://thesecretlivesofdata.com/raft/)
 * [分布式系列文章——Paxos 算法原理与推导（图文完整版）](https://juejin.im/entry/586db517ac502e12d639733b)
+* [理解一致性哈希算法](https://www.jianshu.com/p/05ad6637e66b)
 
 ## 微服务
 * [kubernetes指南](https://kubernetes.feisky.xyz/)
