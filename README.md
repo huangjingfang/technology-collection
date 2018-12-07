@@ -21,6 +21,7 @@
 ## 开源项目
 * [Chinese translations for classic IT resource](https://github.com/oldratlee/translations)
 * [中国独立开发者项目列表](https://github.com/1c7/chinese-independent-developer)
+* [hutool](https://github.com/looly/hutool)
 
 #### 分布式任务调度
 * [elastic-job-lite](https://github.com/elasticjob/elastic-job-lite)
