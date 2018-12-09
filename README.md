@@ -41,6 +41,6 @@
 * [awesome-programming-books](https://github.com/jobbole/awesome-programming-books)
 * [JavaWiki](https://github.com/iwannarun/JavaWiki)
 * [JavaGuide](https://github.com/Snailclimb/JavaGuide)
-
+* [Java-Learning-Summary](https://github.com/jxnu-liguobin/Java-Learning-Summary)
 #### markdown
 * [Markdown基本语法](https://www.jianshu.com/p/191d1e21f7ed)
