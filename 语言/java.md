@@ -19,3 +19,7 @@
 * [解读 Java 并发队列 BlockingQueue ](https://mp.weixin.qq.com/s?__biz=MjM5NzMyMjAwMA==&mid=2651482239&idx=1&sn=4606ccb6786f4c565238b240edfcc18e&chksm=bd2504008a528d16d18bf6804d9fa189b691d52cb90d18ddd33362447ca6a79eb618b10a34f4&scene=0&xtrack=1&subscene=131&ascene=7&devicetype=android-26&version=2607033b&nettype=WIFI&abtest_cookie=BQABAAgACgALABIAFAAGAJ2GHgAjlx4AV5keAJuZHgCimR4ApZkeAAAA&lang=zh_CN&pass_ticket=rfud8yU%2FJAWl4SZE3rjnA%2Bq1To1Qo12ajDUGt3jzuuIUaRARRjuWL8MT4feVEyEg&wx_header=1)
 * [ConcurrentHashMap与红黑树实现分析Java8](https://www.jianshu.com/p/b7dda385f83d)
 * [并发队列-无界非阻塞队列 ConcurrentLinkedQueue 原理探究](http://www.importnew.com/25668.html)
+
+
+###### 技术栈
+* [【揭秘】百度，阿里，腾讯等互联网公司，JAVA开发的招聘标准 ](https://mp.weixin.qq.com/s?__biz=MzIxNjA5MTM2MA==&mid=2652435188&idx=1&sn=5ebda7308eefad1d55f682241b8b3fa8&chksm=8c620d7bbb15846df5d7e5277190e7bd4075060069de0ab5c8625271dcc2966332da09677fd5&scene=4&subscene=126&ascene=0&devicetype=android-26&version=2607033b&nettype=WIFI&abtest_cookie=BQABAAgACgALABIAFAAFAJ2GHgAjlx4AV5keAJuZHgClmR4AAAA%3D&lang=zh_CN&pass_ticket=EA7MJ3ZKTbdBEL96KFkUsoafTxuvOSU9jeZB8S%2BLwdLFieizR52krua1DxvlQqsc&wx_header=1)
