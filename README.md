@@ -22,7 +22,7 @@
 * [Chinese translations for classic IT resource](https://github.com/oldratlee/translations)
 * [中国独立开发者项目列表](https://github.com/1c7/chinese-independent-developer)
 * [hutool](https://github.com/looly/hutool)
-
+* [高效微信公众号历史文章和阅读数据爬虫powered by scrapy](https://github.com/wonderfulsuccess/weixin_crawler)
 #### 分布式任务调度
 * [elastic-job-lite](https://github.com/elasticjob/elastic-job-lite)
 * [xxl-job](https://github.com/xuxueli/xxl-job)
