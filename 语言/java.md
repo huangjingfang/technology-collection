@@ -4,7 +4,7 @@
 
 #### 并发
 * [【基本功】不可不说的Java“锁”事](【基本功】不可不说的Java“锁”事)
-
+* [Java 如何实现线程间通信](https://mp.weixin.qq.com/s?__biz=MjM5MTM0NjQ2MQ==&mid=2650141027&idx=2&sn=6bba2358d12dbce24e2326d7fde29771&chksm=beb7ab1189c022077b64865b1c9340c88a6ec08059e122383e52e3c9470c139a8b84a7f9e40f&scene=0&subscene=131&ascene=7&devicetype=android-26&version=2607033b&nettype=WIFI&abtest_cookie=BQABAAgACgALABIAFAAFAJ2GHgAjlx4AV5keAJuZHgClmR4AAAA%3D&lang=zh_CN&pass_ticket=cm8%2FzmEtVppe3eT5CNocO%2FvBg8xsGDGS2o4XrAO8cBmz%2F%2FeDBm0a07Htk9T%2BSLmn&wx_header=1)
   **ThreadLocal**
 
 * [ThreadLocal-面试必问深度解析](https://www.jianshu.com/p/98b68c97df9b)
