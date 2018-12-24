@@ -38,6 +38,7 @@
 
 #### 开发者网站
 * [腾讯云+社区](https://cloud.tencent.com/developer/devdocs)
+* [Java知音](https://www.javazhiyin.com/)
 
 #### 类似归纳
 * [后端架构师技术图谱](https://cloud.tencent.com/developer/article/1165100)
