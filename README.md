@@ -26,6 +26,7 @@
 * [中国独立开发者项目列表](https://github.com/1c7/chinese-independent-developer)
 * [hutool](https://github.com/looly/hutool)
 * [高效微信公众号历史文章和阅读数据爬虫powered by scrapy](https://github.com/wonderfulsuccess/weixin_crawler)
+* [HelloGitHub](https://github.com/521xueweihan/HelloGitHub)
 #### 分布式任务调度
 * [elastic-job-lite](https://github.com/elasticjob/elastic-job-lite)
 * [xxl-job](https://github.com/xuxueli/xxl-job)
@@ -46,6 +47,10 @@
 * [JavaGuide](https://github.com/Snailclimb/JavaGuide)
 * [Java-Learning-Summary](https://github.com/jxnu-liguobin/Java-Learning-Summary)
 * [Java后端知识体系总结 ](https://github.com/zaiyunduan123/Java-Summarize)
+* [CS-Note](https://github.com/CyC2018/CS-Notes/blob/master/README.md)
+* [JCSprout](https://github.com/crossoverJie/JCSprout)
+* [learn Doc](https://github.com/csy512889371/learnDoc)
+* [advanced-java](https://github.com/doocs/advanced-java)
 
 #### markdown
 * [Markdown基本语法](https://www.jianshu.com/p/191d1e21f7ed)
