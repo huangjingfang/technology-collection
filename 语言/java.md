@@ -21,6 +21,8 @@
 * [ConcurrentHashMap与红黑树实现分析Java8](https://www.jianshu.com/p/b7dda385f83d)
 * [并发队列-无界非阻塞队列 ConcurrentLinkedQueue 原理探究](http://www.importnew.com/25668.html)
 
+#### Java 8
+* [Java 8 中的 Streams API 详解](https://www.ibm.com/developerworks/cn/java/j-lo-java8streamapi/)
 
 ###### 技术栈
 * [【揭秘】百度，阿里，腾讯等互联网公司，JAVA开发的招聘标准 ](https://mp.weixin.qq.com/s?__biz=MzIxNjA5MTM2MA==&mid=2652435188&idx=1&sn=5ebda7308eefad1d55f682241b8b3fa8&chksm=8c620d7bbb15846df5d7e5277190e7bd4075060069de0ab5c8625271dcc2966332da09677fd5&scene=4&subscene=126&ascene=0&devicetype=android-26&version=2607033b&nettype=WIFI&abtest_cookie=BQABAAgACgALABIAFAAFAJ2GHgAjlx4AV5keAJuZHgClmR4AAAA%3D&lang=zh_CN&pass_ticket=EA7MJ3ZKTbdBEL96KFkUsoafTxuvOSU9jeZB8S%2BLwdLFieizR52krua1DxvlQqsc&wx_header=1)
