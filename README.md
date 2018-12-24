@@ -49,6 +49,7 @@
 * [CS-Note](https://github.com/CyC2018/CS-Notes/blob/master/README.md)
 * [JCSprout](https://github.com/crossoverJie/JCSprout)
 * [learn Doc](https://github.com/csy512889371/learnDoc)
+* [advanced-java](https://github.com/doocs/advanced-java)
 
 #### markdown
 * [Markdown基本语法](https://www.jianshu.com/p/191d1e21f7ed)
