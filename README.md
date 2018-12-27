@@ -36,6 +36,7 @@
 
 ## 其他
 * [基于 Nginx 的 HTTPS 性能优化实践](https://mp.weixin.qq.com/s/ryl77apaO5BHfTBh7dx-kQ)
+* [ssh反向代理访问内网主机](https://blog.mythsman.com/2017/01/14/1/)
 
 #### 开发者网站
 * [腾讯云+社区](https://cloud.tencent.com/developer/devdocs)

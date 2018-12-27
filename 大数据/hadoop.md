@@ -1,5 +1,6 @@
-### 1、安装
-* 安装要求
+### 1、Hadoop安装
+>* 安装要求
+>
 > JDK 1.7 +
 
 1. 到Apache Hadoop下载版本<br/>
@@ -8,7 +9,7 @@
 2. 配置java环境变量
 ```shell
 export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
-export HADOOP_HOME=~/hadoop/hadoop3.0.3
+export HADOOP_HOME=~/hadoop/hadoop-3.0.3
 export PATH=$PATH:$JAVA_HOME/bin:$HADOOP_HOME/bin
 ```
 3. 检查是否可用
@@ -34,13 +35,16 @@ Hadoop有三种运行模式
 
 6. 启动和终止守护进程<br/>
 启动和终止hdfs,mapreduce,yarn的守护进程
-修改/etc/hadoop/hadoop-env.sh的JAVA_HOME变量
+修改/etc/hadoop/hadoop-env.sh的JAVA_HOME变量<br/>
+
 ```shell
 export HDFS_DATANODE_SECURE_USER=root
 export HDFS_DATANODE_SECURE_USER=root
 export HDFS_SECONDARYNAMENODE_USER=root
 export HDFS_NAMENODE_USER=root
+
 export YARN_RESOURCEMANAGER_USER=root
+export YARN_NODEMANAGER_USER=root
 #启动
 % start-dfs.sh
 % start-yarn.sh
@@ -49,4 +53,120 @@ export YARN_RESOURCEMANAGER_USER=root
 % mr-jobhistory-daemon.sh stop historyserver
 % stop-yarn.sh
 % stop-dfs.sh
+```
+### Hive安装
+
+1. 下载hive<br/>
+`wget http://mirror.bit.edu.cn/apache/hive/hive-1.2.2/apache-hive-1.2.2-bin.tar.gz`
+
+2. 配置环境变量<br/>
+```shell
+export HIVE_HOME=/root/hadoop/hive/apache-hive-1.2.2-bin
+export PATH=$PATH:$HIVE_HOME/bin
+export CLASSPATH=$CLASSPATH:/usr/local/Hadoop/lib/*:.
+export CLASSPATH=$CLASSPATH:/usr/local/hive/lib/*:.
+```
+
+3. 配置hive
+```shell
+$ cd $HIVE_HOME/conf
+$ cp hive-env.sh.template hive-env.sh
+$ vim hive-env.sh
+$ export HADOOP_HOME=$HADOOP_HOME
+```
+
+4. 下载安装Apache Derby
+```shell
+#derby
+wget http://archive.apache.org/dist/db/derby/db-derby-10.12.1.1/db-derby-10.12.1.1-bin.tar.gz
+export DERBY_HOME=/root/hadoop/derby/db-derby-10.12.1.1-bin
+export PATH=$PATH:$DERBY_HOME/bin
+#创建目录存放metastore
+mkdir $DERBY_HOME/data
+```
+```xml
+<!--MYSQL配置-->
+<property>
+        <name>javax.jdo.option.ConnectionUserName</name>
+        <value>apprentice</value>
+    </property>
+    <property>
+        <name>javax.jdo.option.ConnectionPassword</name>
+        <value>Master2.Y</value>
+    </property>
+   <property>
+        <name>javax.jdo.option.ConnectionURL</name>
+        <value>jdbc:mysql://118.31.35.1:3306/hive</value>
+    </property>
+    <property>
+        <name>javax.jdo.option.ConnectionDriverName</name>
+        <value>com.mysql.jdbc.Driver</value>
+    </property>
+```
+Hive2+如果使用mysql存储元数据需要手动执行`schematool -dbType mysql -initSchema`
+
+
+5. 配置hive的metastore
+```shell
+$ cd $HIVE_HOME/conf
+$ cp hive-default.xml.template hive-site.xml
+```
+修改hive-site.xml中system:java.io.tmpdir为一个本地目录
+
+
+### HBase 安装
+1. 下载
+
+2. 配置<br/>
+
+  * hbase-env.sh
+```shell
+export JAVA_HOME=/usr/local/java/jdk1.6.0_27    #Java安装路径
+export HBASE_CLASSPATH=/usr/local/hadoop/conf    #HBase类路径
+export HBASE_MANAGES_ZK=true    #由HBase负责启动和关闭Zookeeper
+```
+  * hbase-site.xml
+
+```xml
+<property>
+           <name>hbase.master</name>
+           <value>master:6000</value>
+   </property>
+   <property>
+           <name>hbase.master.maxclockskew</name>
+           <value>180000</value>
+   </property>
+   <property>
+           <name>hbase.rootdir</name>
+           <value>hdfs://master:9000/hbase</value>
+   </property>
+   <property>
+           <name>hbase.cluster.distributed</name>
+           <value>true</value>
+   </property>
+   <property>
+           <name>hbase.zookeeper.quorum</name>
+           <value>master</value>
+   </property>
+   <property>
+           <name>hbase.zookeeper.property.dataDir</name>
+           <value>/home/${user.name}/tmp/zookeeper</value>
+   </property>
+   <property>
+           <name>dfs.replication</name>
+           <value>1</value>
+   </property>
+
+```
+
+其中，hbase.master是指定运行HMaster的服务器及端口号；hbase.master.maxclockskew是用来防止HBase节点之间时间不一致造成regionserver启动失败，默认值是30000；hbase.rootdir指定HBase的存储目录；hbase.cluster.distributed设置集群处于分布式模式；hbase.zookeeper.quorum设置Zookeeper节点的主机名，它的值个数必须是奇数；hbase.zookeeper.property.dataDir设置Zookeeper的目录，默认为/tmp，dfs.replication设置数据备份数，集群节点小于3时需要修改，本次试验是一个节点，所以修改为1。
+
+java.lang.IllegalStateException: The procedure WAL relies on the ability to hsync for proper operation during component failures, but the underlying filesystem does not support doing so. Please check the config value of 'hbase.procedure.store.wal.use.hsync' to set the desired level of robustness and ensure the config value of 'hbase.wal.dir' points to a FileSystem mount that can provide it.
+
+hbase-site.xml增加配置
+```xml
+<property>
+<name>hbase.unsafe.stream.capability.enforce</name>
+<value>false</value>
+</property>
 ```
