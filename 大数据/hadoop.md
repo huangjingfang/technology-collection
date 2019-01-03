@@ -54,6 +54,67 @@ export YARN_NODEMANAGER_USER=root
 % stop-yarn.sh
 % stop-dfs.sh
 ```
+
+主要配置如下：
+```xml
+<!--core-site.xml-->
+<configuration>
+   <property>
+        <name>fs.defaultFS</name>
+        <value>hdfs://192.168.40.203:9000</value>
+   </property>
+</configuration>
+
+<!--yarn-site.xml-->
+<configuration>
+   <property>
+        <name>yarn-resourcemanager.hostname</name>
+        <value>localhost</value>
+   </property>
+   <property>
+        <name>yarn.nodemanager.aux-service</name>
+        <value>mapreduce_shuffle</value>
+   </property>
+   <property>
+        <name>yarn.nodemanager.aux-services</name>
+        <value>mapreduce_shuffle</value>
+  </property>
+  <property>
+        <name>yarn.nodemanager.aux-services.mapreduce_shuffle.class</name>
+        <value>org.apache.hadoop.mapred.ShuffleHandler</value>
+  </property>
+</configuration>
+
+<!--hdfs-site.xml-->
+<configuration>
+   <property>
+        <name>dfs.replication</name>
+        <value>1</value>
+   </property>
+</configuration>
+
+<!--mapred-site.xml-->
+<configuration>
+   <property>
+        <name>mapreduce.framework.name</name>
+        <value>yarn</value>
+   </property>
+   <property>
+        <name>yarn.app.mapreduce.am.env</name>
+        <value>HADOOP_MAPRED_HOME=${HADOOP_HOME}</value>
+    </property>
+    <property>
+        <name>mapreduce.map.env</name>
+        <value>HADOOP_MAPRED_HOME=${HADOOP_HOME}</value>
+    </property>
+    <property>
+        <name>mapreduce.reduce.env</name>
+        <value>HADOOP_MAPRED_HOME=${HADOOP_HOME}</value>
+    </property>
+</configuration>
+```
+
+
 ### Hive安装
 
 1. 下载hive<br/>
