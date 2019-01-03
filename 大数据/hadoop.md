@@ -170,3 +170,10 @@ hbase-site.xml增加配置
 <value>false</value>
 </property>
 ```
+
+
+### Kylin 安装
+
+1. 下载
+
+2. 配置环境变量
