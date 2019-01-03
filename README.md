@@ -28,6 +28,8 @@
 * [hutool](https://github.com/looly/hutool)
 * [高效微信公众号历史文章和阅读数据爬虫powered by scrapy](https://github.com/wonderfulsuccess/weixin_crawler)
 * [HelloGitHub](https://github.com/521xueweihan/HelloGitHub)
+* [weekly](https://github.com/ruanyf/weekly)
+
 #### 分布式任务调度
 * [elastic-job-lite](https://github.com/elasticjob/elastic-job-lite)
 * [xxl-job](https://github.com/xuxueli/xxl-job)
