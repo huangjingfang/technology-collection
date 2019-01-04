@@ -16,7 +16,7 @@
 * [机器学习笔记](https://feisky.xyz/machine-learning/)
 * [机器学习最佳实践](https://feisky.xyz/machine-learning/appendix/rules-of-ml.html)
 * [深度学习500问](https://github.com/scutan90/DeepLearning-500-questions)
-* [machine-learning](https://feisky.xyz/machine-learning/)
+* [machine-learning](https://feisky.xyz/machine-learning/) 
 
 ## 算法
 * [十大经典排序算法动画与解析](https://mp.weixin.qq.com/s?__biz=MzI2NjA3NTc4Ng==&mid=2652080652&idx=1&sn=4165e80c03c28c83519abfa99a0262ef&chksm=f17481e9c60308ff4f6f6a19008d1d53e116e4c1e69685a52cc552832701989135fa61275228&scene=0&xtrack=1&subscene=131&ascene=7&devicetype=android-26&version=2607033b&nettype=WIFI&abtest_cookie=BQABAAgACgALABIAFAAFAJ2GHgAjlx4AV5keAJuZHgClmR4AAAA%3D&lang=zh_CN&pass_ticket=cm8%2FzmEtVppe3eT5CNocO%2FvBg8xsGDGS2o4XrAO8cBmz%2F%2FeDBm0a07Htk9T%2BSLmn&wx_header=1)
