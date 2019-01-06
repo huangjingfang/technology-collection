@@ -4,7 +4,7 @@
 
 * [语言](语言/java.md)
 * [文档](文档/documentation.md)
-* [框架](框架/Hibernate.md)
+* [框架](框架/Hibernate.md)mama
 * [分布式](分布式/distributeSystem.md)
 
 ## 数据库
@@ -16,7 +16,7 @@
 * [机器学习笔记](https://feisky.xyz/machine-learning/)
 * [机器学习最佳实践](https://feisky.xyz/machine-learning/appendix/rules-of-ml.html)
 * [深度学习500问](https://github.com/scutan90/DeepLearning-500-questions)
-* [machine-learning](https://feisky.xyz/machine-learning/) 
+* [machine-learning](https://feisky.xyz/machine-learning/)
 
 ## 算法
 * [十大经典排序算法动画与解析](https://mp.weixin.qq.com/s?__biz=MzI2NjA3NTc4Ng==&mid=2652080652&idx=1&sn=4165e80c03c28c83519abfa99a0262ef&chksm=f17481e9c60308ff4f6f6a19008d1d53e116e4c1e69685a52cc552832701989135fa61275228&scene=0&xtrack=1&subscene=131&ascene=7&devicetype=android-26&version=2607033b&nettype=WIFI&abtest_cookie=BQABAAgACgALABIAFAAFAJ2GHgAjlx4AV5keAJuZHgClmR4AAAA%3D&lang=zh_CN&pass_ticket=cm8%2FzmEtVppe3eT5CNocO%2FvBg8xsGDGS2o4XrAO8cBmz%2F%2FeDBm0a07Htk9T%2BSLmn&wx_header=1)
@@ -44,6 +44,7 @@
 * [腾讯云+社区](https://cloud.tencent.com/developer/devdocs)
 * [Java知音](https://www.javazhiyin.com/)
 * [阿里云栖社区](https://edu.aliyun.com/)
+* [计算机书籍](http://bestcbooks.com/)
 
 #### 类似归纳
 * [后端架构师技术图谱](https://cloud.tencent.com/developer/article/1165100)
