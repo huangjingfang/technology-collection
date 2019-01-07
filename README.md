@@ -4,7 +4,7 @@
 
 * [语言](语言/java.md)
 * [文档](文档/documentation.md)
-* [框架](框架/Hibernate.md)
+* [框架](框架/Hibernate.md)mama
 * [分布式](分布式/distributeSystem.md)
 
 ## 数据库
@@ -44,6 +44,7 @@
 * [腾讯云+社区](https://cloud.tencent.com/developer/devdocs)
 * [Java知音](https://www.javazhiyin.com/)
 * [阿里云栖社区](https://edu.aliyun.com/)
+* [计算机书籍](http://bestcbooks.com/)
 
 #### 类似归纳
 * [后端架构师技术图谱](https://cloud.tencent.com/developer/article/1165100)
