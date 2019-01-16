@@ -4,7 +4,7 @@
 
 * [语言](语言/java.md)
 * [文档](文档/documentation.md)
-* [框架](框架/Hibernate.md)mama
+* [框架](框架/Hibernate.md)
 * [分布式](分布式/distributeSystem.md)
 
 ## 数据库
