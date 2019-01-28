@@ -14,3 +14,8 @@
 ## Zookeeper
 
 * [分布式系统服务ZooKeeper的学习历程](https://github.com/llohellohe/zookeeper)
+
+
+#### 其他
+
+* [CQRS - 简单的架构设计](https://mp.weixin.qq.com/s/u1pH_FSDT57Stow8edt_oA)

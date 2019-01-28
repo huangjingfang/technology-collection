@@ -12,6 +12,7 @@
 * [100亿数据1万属性数据架构设计](https://mp.weixin.qq.com/s/3O3kPSwV-tAeYdy2ZRACpg)
 * [Mysql数据库的隔离机制](https://mp.weixin.qq.com/s/u4NLJ3I2vkeZHWBpgHsdEA)
 * [mysql select 加锁分析](https://mp.weixin.qq.com/s/xEQArUF8Q4buQdMNDqbhsA)
+* [MySQL InnoDB锁介绍及不同SQL语句分别加什么样的锁](https://mp.weixin.qq.com/s/yhyr6M0hVEgQPyER0XyXuQ)
 
 ## 机器学习
 * [机器学习笔记](https://feisky.xyz/machine-learning/)
@@ -22,6 +23,8 @@
 ## 算法
 * [十大经典排序算法动画与解析](https://mp.weixin.qq.com/s?__biz=MzI2NjA3NTc4Ng==&mid=2652080652&idx=1&sn=4165e80c03c28c83519abfa99a0262ef&chksm=f17481e9c60308ff4f6f6a19008d1d53e116e4c1e69685a52cc552832701989135fa61275228&scene=0&xtrack=1&subscene=131&ascene=7&devicetype=android-26&version=2607033b&nettype=WIFI&abtest_cookie=BQABAAgACgALABIAFAAFAJ2GHgAjlx4AV5keAJuZHgClmR4AAAA%3D&lang=zh_CN&pass_ticket=cm8%2FzmEtVppe3eT5CNocO%2FvBg8xsGDGS2o4XrAO8cBmz%2F%2FeDBm0a07Htk9T%2BSLmn&wx_header=1)
 
+## 数据结构
+* [红黑树的理解与Java实现](https://mp.weixin.qq.com/s/4sCnvWmW7-fOIlpNeIIjIw)
 
 ## 开源项目
 * [Chinese translations for classic IT resource](https://github.com/oldratlee/translations)
@@ -40,6 +43,7 @@
 ## 其他
 * [基于 Nginx 的 HTTPS 性能优化实践](https://mp.weixin.qq.com/s/ryl77apaO5BHfTBh7dx-kQ)
 * [ssh反向代理访问内网主机](https://blog.mythsman.com/2017/01/14/1/)
+* [系统架构中为什么要引入消息中间件？](https://mp.weixin.qq.com/s/UCjHwNh-aPXmHsa8kq742w)
 
 #### 开发者网站
 * [腾讯云+社区](https://cloud.tencent.com/developer/devdocs)
@@ -62,3 +66,6 @@
 
 #### markdown
 * [Markdown基本语法](https://www.jianshu.com/p/191d1e21f7ed)
+
+### 日志
+* [Java日志框架 : slf4j 作用及其实现原理](https://mp.weixin.qq.com/s/FiClJuWf-dAUEsN7iWBr-Q)
