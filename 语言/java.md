@@ -11,7 +11,8 @@
 * [浅析几种线程安全模型](https://mp.weixin.qq.com/s/3Fkf_px7_tHAyjiIqrnn4g)
 * [深入理解 Java 线程池](https://mp.weixin.qq.com/s/877WSQ1ZkKCRbz1Wwbb6CA)
 
-  **ThreadLocal**
+
+  *ThreadLocal*
 
 * [ThreadLocal-面试必问深度解析](https://www.jianshu.com/p/98b68c97df9b)
 * [ThreadLocal内存泄漏真因探究](https://www.jianshu.com/p/a1cd61fa22da)
