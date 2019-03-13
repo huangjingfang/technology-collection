@@ -6,17 +6,21 @@
   变量的命名方式与Java一致，有效的标识符必须以字母（可以使用任何 UTF-8 编码的字符或 \_）开头，然后紧跟着 0 个或多个字符或 Unicode 数字，如：X56、group1、\_x23、i、өԑ12。
 
    Go 代码中会使用到的 25 个关键字或保留字：
-break 	default 	func 	interface 	select
-case 	defer 	go 	map 	struct
-chan 	else 	goto 	package 	switch
-const 	fallthrough 	if 	range 	type
-continue 	for 	import 	return 	var
+
+  | break| default |func 	|interface |	select|
+  | :--- | :------ |:--- | :------ |:--- |
+  |case 	|defer 	|go 	|map 	|struct|
+  |chan 	|else 	|goto 	|package 	|switch|
+  |const 	|fallthrough 	|if 	|range 	|type|
+  |continue 	|for 	|import 	|return 	|var|
 
 除了以上介绍的这些关键字，Go 语言还有 36 个预定义标识符，其中包含了基本类型的名称和一些基本的内置函数（第 6.5 节），它们的作用都将在接下来的章节中进行进一步地讲解。
-append 	bool 	byte 	cap 	close 	complex 	complex64 	complex128 	uint16
-copy 	false 	float32 	float64 	imag 	int 	int8 	int16 	uint32
-int32 	int64 	iota 	len 	make 	new 	nil 	panic 	uint64
-print 	println 	real 	recover 	string 	true 	uint 	uint8 	uintptr
+
+|append 	|bool 	|byte 	|cap 	|close 	|complex 	|complex64 	|complex128 	|uint16|
+| :--- | :------ |:--- | :------ |:--- |
+|copy 	|false 	|float32 	|float64 	|imag 	|int 	|int8 	|int16 	|uint32
+|int32 	|int64 	|iota 	|len 	|make 	|new 	|nil 	|panic 	uint64
+|print 	|println 	|real 	|recover 	|string 	|true 	|uint 	|uint8 	|uintptr
 
 程序一般由关键字、常量、变量、运算符、类型和函数组成。
 
@@ -135,4 +139,35 @@ func (t T) Method1() {
 func Func1() { // exported function Func1
    //...
 }
+```
+
+* 在完成包的 import 之后，开始对常量、变量和类型的定义或声明。
+* 如果存在 init 函数的话，则对该函数进行定义（这是一个特殊的函数，每个含有该函数的包都会首先执行这个函数）。
+* 如果当前包是 main 包，则定义 main 函数。
+*然后定义其余的函数，首先是类型的方法，接着是按照 main 函数中先后调用的顺序来定义相关函数，如果有很多函数，则可以按照字母顺序来进行排序。
+
+* **类型的转换**
+
+在必要以及可行的情况下，一个类型的值可以被转换成另一种类型的值。由于 Go 语言不存在隐式类型转换，因此所有的转换都必须显式说明，就像调用一个函数一样（类型在这里的作用可以看作是一种函数）：
+
+``` go
+valueOfTypeB = typeB(valueOfTypeA)
+```
+
+**类型 B 的值 = 类型 B(类型 A 的值)**
+
+示例：
+``` go
+a := 5.0
+b := int(a)
+```
+
+* **常量**
+常量使用关键字 const 定义，用于存储不会改变的数据。
+
+存储在常量中的数据类型只可以是布尔型、数字型（整数型、浮点型和复数）和字符串型。
+
+常量的定义格式：·const identifier [type] = value·，例如：
+``` go
+const Pi = 3.14159
 ```
