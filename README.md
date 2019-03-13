@@ -2,7 +2,11 @@
 
 本仓库主要收集到平时看过的技术文章和相关文档，方便需要时查阅
 
-* [语言](语言/java.md)
+* 语言
+  * [java](语言/java.md)
+  * [go](语言/Go.md)
+  * [javascript](语言/javasc .md)
+  * [python](语言/python.md)
 * [文档](文档/documentation.md)
 * [框架](框架/Hibernate.md)
 * [分布式](分布式/distributeSystem.md)
@@ -64,6 +68,7 @@
 * [learn Doc](https://github.com/csy512889371/learnDoc)
 * [advanced-java](https://github.com/doocs/advanced-java)
 * [fouber-blog](https://github.com/fouber/blog)
+* [The way to Go](https://github.com/Unknwon/the-way-to-go_ZH_CN)
 
 #### markdown
 * [Markdown基本语法](https://www.jianshu.com/p/191d1e21f7ed)
