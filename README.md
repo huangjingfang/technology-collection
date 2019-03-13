@@ -5,7 +5,7 @@
 * 语言
   * [java](语言/java.md)
   * [go](语言/Go.md)
-  * [javascript](语言/javasc .md)
+  * [javascript](语言/javascript .md)
   * [python](语言/python.md)
 * [文档](文档/documentation.md)
 * [框架](框架/Hibernate.md)
