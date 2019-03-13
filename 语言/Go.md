@@ -17,7 +17,7 @@
 除了以上介绍的这些关键字，Go 语言还有 36 个预定义标识符，其中包含了基本类型的名称和一些基本的内置函数（第 6.5 节），它们的作用都将在接下来的章节中进行进一步地讲解。
 
 |append 	|bool 	|byte 	|cap 	|close 	|complex 	|complex64 	|complex128 	|uint16|
-| :--- | :------ |:--- | :------ |:--- |
+| :--- | :------ |:--- | :------ |:--- |:------ |:--- | :------ |:--- |
 |copy 	|false 	|float32 	|float64 	|imag 	|int 	|int8 	|int16 	|uint32
 |int32 	|int64 	|iota 	|len 	|make 	|new 	|nil 	|panic 	uint64
 |print 	|println 	|real 	|recover 	|string 	|true 	|uint 	|uint8 	|uintptr
